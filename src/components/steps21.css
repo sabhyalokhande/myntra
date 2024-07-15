@@ -1,0 +1,246 @@
+.steps21-container {
+  width: auto;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.steps21-max-width {
+  gap: var(--dl-space-space-fourunits);
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+}
+.steps21-container01 {
+  align-items: start;
+}
+.steps21-section-header {
+  gap: var(--dl-space-space-oneandhalfunits);
+  top: 10%;
+  height: 693px;
+  display: flex;
+  position: sticky;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.steps21-button {
+  text-decoration: none;
+}
+.steps21-container02 {
+  grid-area: span 1/span 1/span 1/span 1;
+}
+.steps21-container03 {
+  top: 10%;
+  position: sticky;
+  transform: rotate(-2deg);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-theme-accent1);
+}
+.steps21-container04 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.steps21-container05 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.steps21-container06 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.steps21-container07 {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: center;
+}
+.steps21-image {
+  width: 542px;
+  height: 207px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  justify-content: center;
+  background-image: url('https://img.freepik.com/premium-photo/fashion-design-sketch-new-beautiful-outfit-woman_954932-3690.jpg');
+  background-position: center;
+}
+.steps21-text10 {
+  align-self: stretch;
+  text-align: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.steps21-button1 {
+  display: flex;
+  align-self: flex-end;
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+}
+.steps21-button1:hover {
+  fill: white;
+  color: white;
+  background-color: #f41cb2;
+}
+.steps21-icon {
+  width: 24px;
+  height: 24px;
+}
+.steps21-text11 {
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.steps21-container08 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+.steps21-container09 {
+  top: 10%;
+  position: sticky;
+  transform: rotate(2deg);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-theme-accent2);
+}
+.steps21-container10 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.steps21-image1 {
+  width: 235px;
+  height: 265px;
+  object-fit: cover;
+}
+.steps21-text14 {
+  align-self: stretch;
+  text-align: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.steps21-button2 {
+  width: var(--dl-size-size-medium);
+  display: flex;
+  align-self: flex-end;
+  text-align: right;
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+  background-color: var(--dl-color-theme-accent1);
+}
+.steps21-button2:hover {
+  fill: white;
+  color: white;
+  background-color: #f41cb2;
+}
+.steps21-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.steps21-text15 {
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+}
+.steps21-container11 {
+  top: 10%;
+  position: sticky;
+  transform: rotate(-2deg);
+  margin-bottom: var(--dl-space-space-twounits);
+  background-color: var(--dl-color-theme-accent1);
+}
+.steps21-container12 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  justify-content: stretch;
+}
+.steps21-image2 {
+  width: 200px;
+  object-fit: cover;
+}
+.steps21-text18 {
+  align-self: stretch;
+  text-align: center;
+  margin-left: var(--dl-space-space-oneandhalfunits);
+}
+.steps21-button3 {
+  display: flex;
+  align-self: flex-end;
+  transition: 0.3s;
+  border-radius: var(--dl-radius-radius-round);
+  flex-direction: row;
+}
+.steps21-button3:hover {
+  fill: white;
+  color: white;
+  background-color: #f41cb2;
+}
+.steps21-icon4 {
+  width: 24px;
+  height: 24px;
+}
+.steps21-text19 {
+  align-self: center;
+  margin-left: var(--dl-space-space-halfunit);
+}
+@media(max-width: 1200px) {
+  .steps21-button {
+    background-color: #e01cb2;
+  }
+  .steps21-container03 {
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+  }
+  .steps21-image {
+    width: 492px;
+    height: 229px;
+  }
+  .steps21-text10 {
+    align-self: stretch;
+  }
+}
+@media(max-width: 991px) {
+  .steps21-max-width {
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .steps21-section-header {
+    position: static;
+    margin-bottom: var(--dl-space-space-twounits);
+  }
+  .steps21-container03 {
+    width: 100%;
+  }
+  .steps21-container09 {
+    width: 100%;
+  }
+  .steps21-container11 {
+    width: 100%;
+  }
+}
+@media(max-width: 479px) {
+  .steps21-button {
+    width: 100%;
+  }
+}

@@ -1,0 +1,110 @@
+.contact101-container {
+  display: flex;
+  position: relative;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact101-max-width {
+  align-self: center;
+}
+.contact101-content {
+  width: 100%;
+  margin-bottom: var(--dl-space-space-threeunits);
+  justify-content: flex-start;
+}
+.contact101-content1 {
+  gap: var(--dl-space-space-unit);
+  display: flex;
+  align-self: stretch;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.contact101-text {
+  font-size: 45px;
+}
+.contact101-text01 {
+  font-size: 30px;
+}
+.contact101-content2 {
+  width: 100%;
+  align-items: flex-start;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.contact101-container1 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact101-image {
+  height: 798px;
+  object-fit: cover;
+}
+.contact101-text02 {
+  text-align: center;
+}
+.contact101-container2 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact101-text05 {
+  font-size: 90px;
+  align-self: center;
+}
+.contact101-container3 {
+  gap: var(--dl-space-space-oneandhalfunits);
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact101-image1 {
+  height: 791px;
+  align-self: flex-start;
+  object-fit: cover;
+}
+.contact101-text06 {
+  text-align: center;
+}
+.contact101-text07 {
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.contact101-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.contact101-root-class-name {
+  background-color: white;
+}
+@media(max-width: 991px) {
+  .contact101-content {
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .contact101-content2 {
+    position: relative;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+@media(max-width: 767px) {
+  .contact101-content {
+    gap: var(--dl-space-space-oneandhalfunits);
+  }
+  .contact101-image {
+    width: 100%;
+  }
+  .contact101-image1 {
+    width: 100%;
+  }
+}

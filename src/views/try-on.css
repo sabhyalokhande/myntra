@@ -1,0 +1,59 @@
+.try-on-container {
+  width: 100%;
+  display: flex;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: white;
+}
+.try-on-container1 {
+  width: 1363px;
+  height: 508px;
+  display: flex;
+  margin-top: var(--dl-space-space-oneandhalfunits);
+  align-items: center;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-style: dashed;
+  border-width: 2px;
+  border-radius: var(--dl-radius-radius-imageradius);
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+  justify-content: center;
+  background-color: rgba(37, 30, 30, 0.17);
+}
+.try-on-button {
+  display: flex;
+  transition: 0.3s;
+  margin-right: var(--dl-space-space-oneandhalfunits);
+  flex-direction: row;
+}
+.try-on-button:hover {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.try-on-icon {
+  width: 24px;
+  height: 24px;
+}
+.try-on-button1 {
+  display: flex;
+  transition: 0.3s;
+  flex-direction: row;
+}
+.try-on-button1:hover {
+  fill: var(--dl-color-theme-neutral-light);
+  color: var(--dl-color-theme-neutral-light);
+  background-color: var(--dl-color-theme-neutral-dark);
+}
+.try-on-icon2 {
+  width: 24px;
+  height: 24px;
+}
+.try-on-image {
+  width: 200px;
+  height: 202px;
+  object-fit: cover;
+  margin-bottom: var(--dl-space-space-oneandhalfunits);
+}

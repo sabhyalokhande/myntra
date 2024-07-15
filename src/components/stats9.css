@@ -1,0 +1,113 @@
+.stats9-max-width {
+  gap: var(--dl-space-space-threeunits);
+  flex: 1;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+.stats9-container1 {
+  gap: var(--dl-space-space-twounits);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.stats9-title {
+  text-align: center;
+}
+.stats9-content {
+  text-align: center;
+}
+.stats9-container2 {
+  width: auto;
+}
+.stats9-container3 {
+  height: 350px;
+  display: flex;
+  flex-wrap: wrap;
+  align-self: flex-start;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-accent1);
+}
+.stats9-text02 {
+  text-align: center;
+}
+.stats9-container4 {
+  height: 350px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-accent2);
+}
+.stats9-text05 {
+  text-align: center;
+}
+.stats9-container5 {
+  height: 350px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-accent2);
+}
+.stats9-text08 {
+  text-align: center;
+}
+.stats9-container6 {
+  height: 350px;
+  display: flex;
+  align-self: flex-start;
+  align-items: center;
+  aspect-ratio: 1/1;
+  border-color: var(--dl-color-theme-neutral-dark);
+  border-width: 1px;
+  flex-direction: column;
+  background-color: var(--dl-color-theme-accent1);
+}
+.stats9-text11 {
+  text-align: center;
+}
+@media(max-width: 991px) {
+  .stats9-max-width {
+    flex-direction: column;
+  }
+  .stats9-container1 {
+    width: 100%;
+  }
+  .stats9-title {
+    text-align: center;
+  }
+  .stats9-container2 {
+    padding-bottom: var(--dl-space-space-unit);
+  }
+}
+@media(max-width: 767px) {
+  .stats9-title {
+    text-align: center;
+  }
+  .stats9-container2 {
+    align-items: center;
+  }
+}
+@media(max-width: 479px) {
+  .stats9-title {
+    align-self: center;
+    text-align: center;
+  }
+  .stats9-container2 {
+    align-items: center;
+  }
+}
